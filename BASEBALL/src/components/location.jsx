@@ -3,13 +3,13 @@ import { Divider } from "antd";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  padding-top: 42px;
-  width: 70%;
+  padding-top: 20px;
+  width: 80%;
   margin: 0 auto;
 `;
 
 const Title = styled.p`
-      font-size: 1rem;
+      font-size: 1.5rem;
       color: var(--title-color);
       font-weight: bold;
       opacity: 0.85;
@@ -103,7 +103,7 @@ const Location = () => {
         className="root_daum_roughmap root_daum_roughmap_landing"
       ></Map>
       <Content>
-        부산 중구 남포길 40-2
+        부산 영도구 절영로 355 3층
         <br />
         영도 목장원 오채담
         <br />

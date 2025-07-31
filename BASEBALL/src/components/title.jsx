@@ -9,7 +9,7 @@ import {
 } from "../../config.js";
 
 const Layout = styled.div`
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     overflow: hidden;
     text-align: center;
@@ -26,7 +26,7 @@ const TitleText = styled.h1`
 `;
 
 const SubTitle = styled.p`
-    font-size: 1.06rem;
+    font-size: 1.32rem;
     font-weight: bold;
     opacity: 0.8;
     margin-bottom: 4032;

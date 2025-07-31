@@ -3,13 +3,13 @@ import styled from "styled-components";
 import { Divider } from "antd";
 
 const Wrapper = styled.div`
-    padding-top: 42px;
+    padding-top: 20px;
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
 `;
 
 const Title = styled.p`
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: var(--title-color);
     font-weight: bold;
     opacity: 0.85;
@@ -18,7 +18,7 @@ const Title = styled.p`
 `;
 
 const Content = styled.p`
-    font-size: 0.72rem;
+    font-size: 1.0rem;
     line-height: 1.75;
     opacity: 0.75;
     margin-bottom: 16px;
@@ -27,7 +27,7 @@ const Content = styled.p`
 `;
 
 const PlayerInfo = styled.p`
-    font-size: 0.875rem;
+    font-size: 1.1rem;
     line-height: 1.75;
     opacity: 0.85;
     margin-bottom: 0;
@@ -44,14 +44,18 @@ const Greeting = () => {
           <Content>
               안녕하세요,
               <br/>
-              사랑하는 영도구리틀야구단 가족 여러분!
+              사랑하는 영도구리틀야구단
+              <br/>
+              가족 여러분!
               <br/>
               <br/>
               다사다난 했던 선수들이 디딤돌인
               <br/>
               영도구리틀야구단을 떠나
               <br/>
-              더 험난한 무대로 여정을 떠나려고 합니다.
+              더 험난한 무대로 여정을
+              <br/>
+              떠나려고 합니다.
               <br/>
               그 동안의 성과를 함께 나누며
               <br/>
@@ -74,17 +78,17 @@ const Greeting = () => {
               감사합니다!
           </Content>
           <PlayerInfo data-aos="fade-up">
-              영도구 진민기 (대신중학교)
+              진민기 (대신중학교)
               <br/>
-              영도구 황지훈 (원동중학교)
+              황지훈 (원동중학교)
               <br/>
-              영도구 김건우 (센텀중학교)
+              김건우 (센텀중학교)
               <br/>
-              영도구 김지성 (센텀중학교)
+              김지성 (센텀중학교)
               <br/>
-              영도구 조형찬 (대신중학교)
+              조형찬 (대신중학교)
               <br/>
-              영도구 유정훈 (대신중학교)
+              유정훈 (대신중학교)
           </PlayerInfo>
       </Wrapper>
   );

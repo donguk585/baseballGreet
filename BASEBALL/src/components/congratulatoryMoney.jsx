@@ -4,15 +4,15 @@ import { CheckCircleTwoTone } from "@ant-design/icons";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  padding-top: 42px;
+  padding-top: 20px;
   padding-bottom: 18px;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
 `;
 
 const Title = styled.p`
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: var(--title-color);
     font-weight: bold;
     opacity: 0.85;
